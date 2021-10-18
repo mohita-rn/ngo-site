@@ -1,0 +1,40 @@
+.header {
+  background-color: white !important;
+  color: black !important;
+}
+@media (min-width: 600px) {
+  .toolbar {
+    min-height: 90px !important;
+  }
+  .icons-list {
+    padding-top: 40px !important;
+  }
+}
+
+.title {
+  font-family: "Orbitron", sans-serif !important;
+  font-family: "Sacramento", cursive !important;
+  font-size: 32px !important;
+  font-weight: bold !important;
+}
+
+.bookVisit {
+  right: 40px !important;
+  position: fixed !important;
+  border-color: green !important;
+  color: green !important;
+  border-radius: 30px !important;
+  @media (max-width:600px) {
+    display: none !important;
+  }
+}
+
+.bookVisit:hover {
+  color: white !important;
+  background-color: green !important;
+}
+
+
+.main{
+  width: 80%;
+}

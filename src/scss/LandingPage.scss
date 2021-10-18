@@ -1,0 +1,32 @@
+.productsCarousel {
+  // display: inline-block;
+  margin: 40px 10px 40px 10px;
+  .viewAllProducts {
+    background-color: white !important;
+    border-radius: 30px !important;
+    color: green !important;
+    float: right;
+    border: 1px solid green;
+    height: 5vh;
+    &:hover {
+      background-color: green !important;
+      color: white !important;
+    }
+  }
+}
+.paper {
+  display: flex;
+}
+
+.product-carousel-imgs {
+  @media (min-width: 1024px) {
+    width: 33% !important;
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    width: 50% !important;
+  }
+  @media (max-width: 768px) {
+    width: 100% !important;
+  }
+  min-height: 250px;
+}
